@@ -35,7 +35,7 @@ public class Lab3 {
 		System.out.println("3. Phone Number");
 		System.out.println("4. ID Creater");
 		
-		Scanner input = new Scanner (System.in);
+		Scanner input = new Scanner(System.in);
 		
 		String selected = input.nextLine();
 		
@@ -123,6 +123,26 @@ public class Lab3 {
 	
 	public static void counter() {
 		//Second Problem to be called by main. Counting how many words are in a string.
+		
+		Scanner s = new Scanner(System.in);
+		char ch;
+		int x;
+		int count = 0;
+		int length;
+		boolean prevCharPunk = false;
+		
+		String userIn = s.nextLine();
+		
+		for (x = 0; x<userIn.length(); x++) {
+			ch = (char) userIn.indexOf(x);
+			
+			if (ch == "")
+			
+		}
+		
+		int count = userIn.split(",").length;
+		
+		
 	}
 	
 	public static void phoneNum() {
